@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fragments_buttons_margin_top">32dp</dimen>
+    <dimen name="fragment_btn_edit_txt_margin_top">8dp</dimen>
+    <dimen name="fragment_btn_edit_txt_margin_top_medium">16dp</dimen>
+    <dimen name="frag_edit_layout_padding">16dp</dimen>
+    <dimen name="frag_edit_txt_header">20sp</dimen>
+    <dimen name="frag_edit_txt_header_medium">15sp</dimen>
+    <dimen name="frag_edit_txt_margin_top">5dp</dimen>
+    <dimen name="frag_edit_txt_margin_start">10dp</dimen>
+    <dimen name="frag_user_padding">26dp</dimen>
+    <dimen name="item_list_user_padding">16dp</dimen>
+</resources>

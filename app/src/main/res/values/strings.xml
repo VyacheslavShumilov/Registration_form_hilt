@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Hilt App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="see_all_users">SEE ALL USERS</string>
+    <string name="delete_users">Delete Users</string>
+    <string name="hilt">Hilt</string>
+    <string name="hint_name_edit_txt">Name</string>
+    <string name="hint_last_name_edit_txt">Last Name</string>
+    <string name="last_phone_edit_txt">Phone</string>
+    <string name="last_add_user_edit_txt">Add User</string>
+    <string name="frag_edit_txt_first_name">First name:</string>
+    <string name="frag_edit_txt_last_name">Last name:</string>
+    <string name="frag_edit_txt_phone">Phone:</string>
+    <string name="frag_edit_txt_delete_user">delete user</string>
+    <string name="frag_edit_txt_edit_user">edit user</string>
+    <string name="frag_edit_txt_user_id">User id:</string>
+    <string name="frag_user_txt_first_name">First name</string>
+    <string name="frag_user_txt_last_name">Last name</string>
+    <string name="frag_user_txt_phone">Phone</string>
+    <string name="frag_user_txt_edit_save">Edit save</string>
+    <string name="item_list_user_id">User ID:</string>
+</resources>

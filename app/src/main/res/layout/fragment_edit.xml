@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/frag_edit_layout_padding"
+    tools:context=".ui.EditFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/frag_edit_txt_user_id"
+            android:textSize="@dimen/frag_edit_txt_header"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/frag_edit_txt_margin_top"
+            android:text="@string/frag_edit_txt_first_name"
+            android:textSize="@dimen/frag_edit_txt_header_medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/frag_edit_txt_margin_top"
+            android:text="@string/frag_edit_txt_last_name"
+            android:textSize="@dimen/frag_edit_txt_header_medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/frag_edit_txt_margin_top"
+            android:text="@string/frag_edit_txt_phone"
+            android:textSize="@dimen/frag_edit_txt_header_medium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/frag_edit_txt_margin_start"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/frag_edit_txt_header"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/firstNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/frag_edit_txt_margin_top"
+            android:textSize="@dimen/frag_edit_txt_header_medium" />
+
+        <TextView
+            android:id="@+id/lastNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/frag_edit_txt_margin_top"
+            android:textSize="@dimen/frag_edit_txt_header_medium" />
+
+        <TextView
+            android:id="@+id/phoneTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/frag_edit_txt_margin_top"
+            android:textSize="@dimen/frag_edit_txt_header_medium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/frag_edit_txt_margin_start"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/deleteUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/frag_edit_txt_delete_user"
+            android:textColor="#D50000"
+            android:textSize="@dimen/frag_edit_txt_header" />
+
+        <TextView
+            android:id="@+id/editDataUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/frag_edit_txt_margin_top"
+            android:text="@string/frag_edit_txt_edit_user"
+            android:textColor="#D50000"
+            android:textSize="@dimen/frag_edit_txt_header_medium" />
+
+    </LinearLayout>
+
+</LinearLayout>
